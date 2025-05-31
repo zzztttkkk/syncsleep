@@ -1,0 +1,21 @@
+{
+  "name": "syncsleep-linux-riscv64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "riscv64"
+  ],
+  "main": "syncsleep.linux-riscv64-gnu.node",
+  "files": [
+    "syncsleep.linux-riscv64-gnu.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}
